@@ -1,5 +1,14 @@
-# SHELL for Android
+# SHELL for Android 
+<img src="https://img.shields.io/badge/Android-Java-red"> <img src="https://img.shields.io/badge/SHELL-%2Fsystem%2Fbin%2Fsh-orange">
 Shell Scripting Android app with Terminal emulator to get control over Android CLI Interface.
+
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+    alt="Get it on F-Droid"
+    height="80">](https://f-droid.org/packages/in.ac.dducollegedu.shell)[<img src="https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_English.png?ver=1626197462000"
+    alt="Available on Samsung Galaxy Store"
+    height="70">](https://galaxy.store/ashell)
+
+
 <p align="center">
   <img src="https://github.com/abhinandanarya06/SHELL/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/main.jpg?raw=true">
 </p>
@@ -11,13 +20,7 @@ Shell Scripting Android app with Terminal emulator to get control over Android C
 
 ---
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-    alt="Get it on F-Droid"
-    height="80">](https://f-droid.org/packages/in.ac.dducollegedu.shell)
-    
-[<img src="https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_English.png?ver=1626197462000"
-    alt="Available on Samsung Galaxy Store"
-    height="60">](https://galaxy.store/ashell)
+
 
 
 
