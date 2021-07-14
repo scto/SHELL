@@ -1,5 +1,6 @@
 # SHELL for Android 
 <img src="https://img.shields.io/badge/Android-Java-red"> <img src="https://img.shields.io/badge/SHELL-%2Fsystem%2Fbin%2Fsh-orange">
+
 Shell Scripting Android app with Terminal emulator to get control over Android CLI Interface.
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
