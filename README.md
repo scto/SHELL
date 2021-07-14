@@ -9,6 +9,17 @@ Shell Scripting Android app with Terminal emulator to get control over Android C
   <img src="https://github.com/abhinandanarya06/SHELL/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg?raw=true" width="33%">
 </p>
 
+---
+
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+    alt="Get it on F-Droid"
+    height="80">](https://f-droid.org/packages/in.ac.dducollegedu.shell)
+    
+[<img src="https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_English.png?ver=1626197462000"
+    alt="Available on Samsung Galaxy Store"
+    height="60">](https://galaxy.store/ashell)
+
+
 
 ## Quickstart
 1. Clone this repo
