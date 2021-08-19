@@ -21,14 +21,13 @@ jobs:
 
     - name: Generating keystore
       run: |
-        keytool -genkey -noprompt  -alias alias1  -dname "CN=mqttserver.ibm.com, OU=ID, O=IBM, L=Hursley, S=Hants, C=GB"  -keystore keystore.keystore  -storepass password  -keypass password
-        echo "storeFile=./keystore.keystore" > local.properties
-        echo "keyAlias=alias1" >> local.properties
+        keytool -genkey -noprompt  -alias alias  -dname "CN=test.com, OU=test, O=test, L=test, S=test, C=IN"  -keystore test.keystore  -storepass password  -keypass password
+        echo "storeFile=./test.keystore" > local.properties
+        echo "keyAlias=alias" >> local.properties
         echo "storePassword=password" >> local.properties
         echo "keyPassword=password" >> local.properties
-        cat local.properties
         
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew assembleDebug
+      run: ./gradlew build
