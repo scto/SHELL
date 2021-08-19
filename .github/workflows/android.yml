@@ -19,9 +19,16 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
 
-    - name: Grant execute permission for gradlew
+    - name: Generating keystore
       run: |
-        touch local.properties
-        chmod +x gradlew
+        keytool -genkey -noprompt  -alias alias1  -dname "CN=mqttserver.ibm.com, OU=ID, O=IBM, L=Hursley, S=Hants, C=GB"  -keystore keystore.keystore  -storepass password  -keypass password
+        echo "storeFile=./keystore.keystore" > local.properties
+        echo "keyAlias=alias1" >> local.properties
+        echo "storePassword=password" >> local.properties
+        echo "keyPassword=password" >> local.properties
+        cat local.properties
+        
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew assembleDebug
