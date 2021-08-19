@@ -32,7 +32,6 @@ Shell Scripting Android app with Terminal emulator to get control over Android C
 ```
 2. Create a file ```local.properties``` and add content as follows
 ```
-sdk.dir=<ANDROID SDK PATH>
 storeFile=<YOUR KEYSTORE FILE>
 keyAlias=<YOUR KEYSTORE KEY ALIAS>
 storePassword=<YOUR KEYSTORE PASSWORD>
