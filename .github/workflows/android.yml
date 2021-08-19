@@ -22,7 +22,7 @@ jobs:
     - name: Generating keystore
       run: |
         keytool -genkey -noprompt  -alias alias  -dname "CN=test.com, OU=test, O=test, L=test, S=test, C=IN"  -keystore test.keystore  -storepass password  -keypass password
-        echo "storeFile=./test.keystore" > local.properties
+        echo "storeFile=../test.keystore" > local.properties
         echo "keyAlias=alias" >> local.properties
         echo "storePassword=password" >> local.properties
         echo "keyPassword=password" >> local.properties
